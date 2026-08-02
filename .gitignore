@@ -1,0 +1,22 @@
+# --- private / secret: never commit ---
+cookies.txt
+*.cookies
+cookies*.txt
+
+# --- your downloaded music & run artifacts ---
+downloads/
+*.mp3
+*.m4a
+*.opus
+*.webm
+*.flac
+*.ogg
+*.wav
+.download-archive.txt
+._liked_urls.txt
+
+# --- python / OS junk ---
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
